@@ -8,9 +8,9 @@
   --steel: #627d98;
   --paper: #fff;
   --page: #f5f7f9;
-  --heading: "Space Grotesk", "Avenir Next", sans-serif;
-  --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --heading: "Lato", Arial, sans-serif;
+  --sans: "Lato", Arial, sans-serif;
+  --mono: "Lato", Arial, sans-serif;
 }
 
 * {
