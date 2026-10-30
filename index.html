@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Academic profile, research, publications, and teaching for Sudharsan Gopalakrishnan."
+      content="Sudharsan Gopalakrishnan is a Computer Science undergraduate at Harvey Mudd College researching reliable perception, computer vision, and autonomous systems."
     >
     <title>Sudharsan Gopalakrishnan | Academic Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -21,28 +27,32 @@
           alt="Sudharsan Gopalakrishnan"
         >
         <h1 class="profile-name">Sudharsan Gopalakrishnan</h1>
-        <p class="profile-role">Graduate Student</p>
-        <p class="profile-affiliation">[Department]<br>[University]</p>
-        <p class="profile-note">Researching [your research area].</p>
+        <p class="profile-role">Undergraduate Researcher</p>
+        <p class="profile-affiliation">B.S. Computer Science, 2027<br>Harvey Mudd College</p>
+        <p class="profile-note">Reliable perception for intelligent autonomous systems.</p>
 
         <nav class="primary-nav" aria-label="Main navigation">
           <a href="#about">About</a>
           <a href="#research">Research</a>
           <a href="#publications">Publications</a>
-          <a href="#teaching">Teaching</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#leadership">Leadership &amp; Outreach</a>
           <a href="#contact">Contact</a>
         </nav>
 
-        <a class="email-link" href="mailto:you@example.edu">you@example.edu</a>
+        <a class="email-link" href="mailto:sgopalakrishnan@g.hmc.edu">sgopalakrishnan@g.hmc.edu</a>
       </aside>
 
       <main id="main-content">
         <header class="page-heading" id="top">
           <p class="eyebrow">Academic profile</p>
-          <h2>Research, teaching, and ideas</h2>
+          <h2>Reliable autonomous systems</h2>
           <p class="page-intro">
-            Welcome. I’m a graduate student at [University], where I study
-            [brief description of your research].
+            I am an undergraduate Computer Science student at Harvey Mudd College
+            studying how autonomous systems can perceive and navigate complex
+            physical environments. My research spans computer vision, deep learning, autonomous navigation, and
+            robotics.
           </p>
         </header>
 
@@ -53,47 +63,117 @@
           </div>
           <div class="section-copy">
             <p>
-              I am a [master’s / doctoral] student in [program or department]
-              at [University], advised by [advisor name]. My work explores
-              [research topic] and its connection to [broader field or impact].
+              I am an undergraduate at Harvey Mudd College studying Computer
+              Science (expected May 2027). I am interested in Physical AI:
+              systems that perceive, learn, and act in the physical world,
+              especially when reliability matters.
             </p>
             <p>
-              Before graduate school, I [brief background, prior degree, or
-              experience]. I’m interested in thoughtful, collaborative work
-              that makes [the outcome or contribution you care about] possible.
+              My work includes conformal prediction for UAV semantic
+              segmentation, depth-estimation fusion, synthetic data for
+              perception, and music information retrieval. I have also worked
+              on multimodal AI retrieval evaluation at the data infrastructure layer at Articul8 AI.
             </p>
-            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+            <p class="interest-list">
+              <strong>Research interests:</strong> Physical AI, computer
+              vision, autonomous navigation, robotics, uncertainty
+              quantification, and trustworthy machine learning.
+            </p>
+            <a class="text-link" href="#research">Explore my research <span aria-hidden="true">→</span></a>
+          </div>
+        </section>
+
+        <section class="content-section" id="education">
+          <div class="section-heading">
+            <p class="eyebrow">02 / Education</p>
+            <h2>Education</h2>
+          </div>
+          <div class="section-copy">
+            <article class="publication">
+              <p class="publication-type">August 2023–May 2027 · Claremont, California</p>
+              <h3>Harvey Mudd College</h3>
+              <p>B.S. in Computer Science · Harvey S. Mudd Merit Scholar</p>
+              <p>
+                Relevant coursework: Computer Vision, Machine Learning,
+                Algorithms, Linear Algebra, Probability and Statistics,
+                Computer Systems, Differential Equations, and Engineering
+                Systems.
+              </p>
+            </article>
           </div>
         </section>
 
         <section class="content-section" id="research">
           <div class="section-heading">
-            <p class="eyebrow">02 / Research</p>
-            <h2>Questions I’m exploring</h2>
+            <p class="eyebrow">03 / Research</p>
+            <h2>Research experience</h2>
           </div>
           <div class="section-copy">
             <p class="section-lead">
-              My research sits at the intersection of [field one], [field two],
-              and [field three].
+              I develop and evaluate methods for perception in challenging environments,
+               with an emphasis on uncertainty quantification and combining complementary
+               sources of information.
             </p>
             <div class="research-list">
               <article class="research-item">
                 <span class="item-number">01</span>
                 <div>
-                  <h3>[Research theme or project]</h3>
+                  <h3>Depth Estimation Ensembles &amp; Perception Fusion</h3>
+                  <p class="research-meta">Lab for CATS · Harvey Mudd College · Sept 2026–Present</p>
                   <p>
-                    A sentence or two on the question, approach, and why this
-                    work matters.
+                    Investigating how to combine depth representations from
+                    convolutional networks, vision transformers, latent
+                    diffusion models, and stereo geometry. Adapting
+                    monocular–stereo mutual-refinement methods toward
+                    model-agnostic fusion across diverse depth sources.
                   </p>
+                  <p><strong>Research question:</strong> How can complementary geometric and semantic depth cues be fused across different model architectures?</p>
                 </div>
               </article>
               <article class="research-item">
                 <span class="item-number">02</span>
                 <div>
-                  <h3>[Research theme or project]</h3>
+                  <h3>Uncertainty Quantification &amp; Autonomous Navigation</h3>
+                  <p class="research-meta">ML and Autonomy for Diverse Domains Lab · Jan–Sept 2026</p>
                   <p>
-                    Describe another active or completed project in clear,
-                    accessible language.
+                    Developed rtCP, a conformal prediction framework for
+                    uncertainty-aware UAV semantic segmentation using CLIPSeg.
+                    It prododuces class-frequency-aware thresholds to address class
+                    imbalance. Evaluated against MC Dropout, regular split
+                    conformal prediction, and a per-class conformal baseline
+                    across two UAV image datasets, rtCP achieved at least 90%
+                    coverage for most object classes at a 90% target.
+                  </p>
+                  <p><strong>Outcome:</strong> First-author paper in ION GNSS+ 2026 conference proceedings; poster presented at Stanford ACT4Aero conference 2026.</p>
+                </div>
+              </article>
+              <article class="research-item">
+                <span class="item-number">03</span>
+                <div>
+                  <h3>Computer Vision &amp; Synthetic Data</h3>
+                  <p class="research-meta">ML and Autonomy for Diverse Domains Lab · 2025</p>
+                  <p>
+                    Curated wildfire simulation datasets using test-to-video (T2V)
+                    foundation models, enabling NeRF-based 3D scene reconstruction
+                    for autonomous drone navigation; developed novel benchmarks and
+                    evaluation protocols for T2V video outputs. Built synthetic terrain
+                    datasets using Stable Diffusion and ControlNet with Mars DEMS;
+                    fine-tuned YOLOv11 for crater detection.
+                  </p>
+                </div>
+              </article>
+              <article class="research-item">
+                <span class="item-number">04</span>
+                <div>
+                  <h3>Signal Processing</h3>
+                  <p class="research-meta">Music Information Retrieval Lab · May 2024–Dec 2024</p>
+                  <p>
+                    Proposed Sequential FlexDTW, a dynamic time warping
+                    approach with linear time complexity, fixed memory, and
+                    flexible local boundary alignment. It outperformed Online
+                    Time Warping (OTW) and matched or exceeded MrMsDTW and FastDTW
+                    across music-synchronization scenarios. Presented at
+                    International Audio Laboratories in Erlangen, Germany.
                   </p>
                 </div>
               </article>
@@ -103,66 +183,229 @@
 
         <section class="content-section" id="publications">
           <div class="section-heading">
-            <p class="eyebrow">03 / Publications</p>
+            <p class="eyebrow">04 / Publications &amp; Presentations</p>
             <h2>Selected work</h2>
           </div>
           <div class="section-copy">
             <article class="publication">
-              <p class="publication-type">[Journal article / conference paper]</p>
-              <h3>[Title of your publication]</h3>
-              <p>Sudharsan Gopalakrishnan, [Co-author Name]. [Venue], [Year].</p>
-              <p class="content-hint">Add a link to the paper here when available.</p>
+              <p class="publication-type">Conference proceedings · First author · Presented</p>
+              <h3>Conformal Prediction for Statistically Controlled Perception Risk in Semantic Segmentation for GNSS-Integrated Navigation Systems</h3>
+              <p>ION GNSS+ · Sept 14–18, 2026 · Orlando, FL</p>
             </article>
-            <p class="content-hint">
-              Replace this example with your work, or remove the section until
-              you have publications to share.
-            </p>
+            <article class="publication">
+              <p class="publication-type">Workshop poster · First author</p>
+              <h3>Conformal Prediction for Statistically Controlled Perception Risk in Semantic Segmentation for GNSS-Integrated Navigation Systems</h3>
+              <p>Stanford ACT4Aero Workshop · Mar 31–Apr 2, 2026 · Stanford, CA</p>
+            </article>
           </div>
         </section>
 
-        <section class="content-section" id="teaching">
+        <section class="content-section" id="experience">
           <div class="section-heading">
-            <p class="eyebrow">04 / Teaching</p>
+            <p class="eyebrow">05 / Experience</p>
+            <h2>Industry &amp; applied research</h2>
+          </div>
+          <div class="section-copy">
+            <article class="publication">
+              <p class="publication-type">June–August 2026 · Dublin, California</p>
+              <h3>Software Engineering Intern · Articul8 AI</h3>
+              <p>
+                Built automated API test suites across authentication and
+                retrieval paths in distributed datastore environments. Developed 
+                agentic retrieval harnesses to ingest, query, and evaluate results
+                against labeled ground truth. Chaos-tested durability and failure 
+                recovery. Compared vector, keyword, and fused retrieval on public
+                information-retireval datasets.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">06 / Projects</p>
+            <h2>Selected projects</h2>
+          </div>
+          <div class="section-copy">
+            <article class="publication">
+              <p class="publication-type">July–August 2026 · PyTorch, PPO, Gymnasium</p>
+              <h3>Diffusion Policy for Pendulum Control</h3>
+              <p>
+                Built an imitiation-learning pipeline for balancing an inverted
+                pendulum (simulated in MuJoCo) by training a PPO reinforcement 
+                learning policy. Generated 50,000 state-action pairs for
+                downstream policy distillation. Implemented a diffusion policy model
+                in PyTorch to clone the PPO policy's behavior from recorded observations.
+              </p>
+            </article>
+            <article class="publication">
+              <p class="publication-type">March–May 2026 · PyTorch, CLIP, CLIPSeg, OpenCV</p>
+              <h3>Enhanced Neural Style Transfer</h3>
+              <p>
+                Built a prompt-guided style-transfer pipeline that aligns
+                semantic image regions and applies region-aware style losses
+                to reduce texture bleeding, with color-preservation applied during
+                post-processing.
+              </p>
+            </article>
+            <article class="publication">
+              <p class="publication-type">December 2025–January 2026 · FAISS, LangChain, Hugging Face</p>
+              <h3>LitPilot</h3>
+              <p>
+                Developed a literature retrieval and recommendation pipeline
+                that indexes arXiv abstracts with FAISS and uses Qwen2.5 to
+                classify retrieved papers by relevance to a user-fed research 
+                intent (i.e. "I want papers about Transformer models.").
+              </p>
+            </article>
+            <article class="publication">
+              <p class="publication-type">January–May 2025 · PyTorch, OpenCV, YOLO-Pose</p>
+              <h3>PoseLock</h3>
+              <p>
+                Developed a computer vision pipeline using YOLO-Pose to extract 17-body 
+                keypoints from walking videos and construct 10-D kinematic gait embeddings 
+                for biometric identification. Engineered gait dynamics features (e.g. shoulder motion)
+                and trained SVM, Random Forest, and XGBoost classifiers with cross-validation, achieving
+                92% person-identification accuracy.
+              </p>
+            </article>
+            <article class="publication">
+              <p class="publication-type">December 2024–February 2025 · Python, YOLOv5</p>
+              <h3>Vision-based Vehicle Detection Pipeline</h3>
+              <p>
+                Curated and annotated <a href="https://universe.roboflow.com/sg-icrum/simtrafficview5k">SimTrafficView5K</a>, a custom 5,000-image multi-class dataset
+                with vehicles generated from a simulated 2D traffic intersection. Fine-tuned a YOLOv5s
+                model to achieve multi-class vehicle identification.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="mentoring">
+          <div class="section-heading">
+            <p class="eyebrow">07 / Mentoring</p>
             <h2>Teaching &amp; mentoring</h2>
           </div>
           <div class="section-copy">
-            <div class="teaching-entry">
-              <p class="teaching-term">[Term, Year]</p>
-              <div>
-                <h3>[Course name] <span>· [University]</span></h3>
-                <p>[Teaching Assistant / Instructor / Mentor]</p>
-              </div>
-            </div>
-            <p class="content-hint">
-              Add courses, workshops, or mentoring experience that you’d like
-              visitors to know about.
-            </p>
+            <article class="publication">
+              <p class="publication-type">Aug 2024–Present · Harvey Mudd College</p>
+              <h3>Grader &amp; Tutor, Computer Science and Engineering</h3>
+              <p>
+                Hold weekly office hours, tutor students, proctor exams,
+                and grade assignments with feedback on algorithmic thinking,
+                code correctness, and code quality.
+              </p>
+              <p>
+                Courses include Principles and Practice: Computer Science
+                (CSCI 42), Data Structures / Program Development (CSCI 70),
+                Computer Systems (CSCI 105), Neural Networks (CSCI 152), and
+                Digital Electronics and Computer Engineering (ENGR 85).
+              </p>
+            </article>
           </div>
         </section>
 
+        <section class="content-section" id="leadership">
+          <div class="section-heading">
+            <p class="eyebrow">08 / Leadership &amp; Outreach</p>
+            <h2>Leadership &amp; community impact</h2>
+          </div>
+          <div class="section-copy">
+            <article class="publication">
+              <p class="publication-type">August 2026–Present · Claremont Colleges</p>
+              <h3>Co-President · P-ai, Claremont Colleges AI Club</h3>
+              <p>
+                Previously served as Director of Projects and Project Manager,
+                leading student machine-learning projects across computer
+                vision, NLP, and multimodal applications.
+              </p>
+            </article>
+            <article class="publication">
+              <p class="publication-type">2019–Present · California 4-H / UC Agriculture and Natural Resources</p>
+              <h3>National 4-H STEM Educator &amp; GeoMentor</h3>
+              <p>
+                Support youth STEM learning through workshops and mentorship
+                in AI and geospatial technologies. Invited speaker at the California 
+                4-H State Leadership Conference for five consecutive years (2022–2026).
+              </p>
+              <p>
+                Represent California on the National 4-H GIS Leadership Team
+                (2021–Present) and coordinate California participation in a
+                national 4-H history-mapping initiative (2026–Present).
+                Founded AI Splash in 2025, delivered hands-on generative AI,
+                web development, and AI literacy workshops for K–12 students
+                and adult 4-H project leaders during National 4-H Week.
+              </p>
+              <p>
+                Reviewed SkyMappers curriculum on Agricultureal Drones and
+                GIS Mastery as part of the 2025 AFA2 Drone Curriculum
+                Review.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="honors">
+          <div class="section-heading">
+            <p class="eyebrow">09 / Honors</p>
+            <h2>Honors &amp; awards</h2>
+          </div>
+          <div class="section-copy">
+            <article class="publication">
+              <h3>Harvey S. Mudd Merit Scholar</h3>
+              <p>Harvey Mudd College</p>
+            </article>
+            <article class="publication">
+              <p class="publication-type">2023–2024</p>
+              <h3>Dean Memorial Legacy Scholarship</h3>
+              <p>California 4-H / UC Agriculture and Natural Resources</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="skills">
+          <div class="section-heading">
+            <p class="eyebrow">10 / Skills</p>
+            <h2>Technical toolkit</h2>
+          </div>
+          <div class="section-copy">
+            <dl class="skills-list">
+              <div><dt>Programming</dt><dd>Python, C++, C, Java, R, SQL, Swift, RISC-V Assembly, SystemVerilog, Bash</dd></div>
+              <div><dt>Machine learning</dt><dd>PyTorch, TensorFlow, Hugging Face, scikit-learn, Stable-Baselines3, Gymnasium</dd></div>
+              <div><dt>Computer vision</dt><dd>OpenCV, YOLO, CLIPSeg, SAM, NeRF, depth estimation, stereo vision</dd></div>
+              <div><dt>AI &amp; retrieval</dt><dd>Transformers, diffusion models, LangChain, FAISS, conformal prediction</dd></div>
+              <div><dt>Systems &amp; tools</dt><dd>Algorithms, operating systems, parallel and distributed systems, Git, Linux, Jupyter, LaTeX, Conda</dd></div>
+            </dl>
+          </div>
+        </section>
+
+
         <section class="content-section contact-section" id="contact">
           <div class="section-heading">
-            <p class="eyebrow">05 / Contact</p>
-            <h2>Let’s connect</h2>
+            <p class="eyebrow">11 / Contact</p>
+            <h2>Let's connect</h2>
           </div>
           <div class="section-copy">
             <p>
-              I’m always happy to hear from people working on related questions,
-              prospective students, and potential collaborators.
+              I am glad to connect with people computer vision, autonomous systems,
+              robotics, and trustworthy machine learning.
             </p>
-            <a class="contact-email" href="mailto:you@example.edu">you@example.edu</a>
-            <p class="content-hint">
-              Add links to your Google Scholar, LinkedIn, or GitHub profiles here.
-            </p>
+            <a class="contact-email" href="mailto:sgopalakrishnan@g.hmc.edu">sgopalakrishnan@g.hmc.edu</a>
+            <ul class="social-links" aria-label="Professional profiles">
+              <li><a href="https://github.com/Reach2sudharsan">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/sudharsangopalakrishnan/">LinkedIn</a></li>
+              <li>
+                <a href="https://scholar.google.com/citations?user=2zGrMdwAAAAJ&hl=en&oi=sra">
+                  Google Scholar
+                </a>
+              </li>
+            </ul>
           </div>
         </section>
 
         <footer class="site-footer">
           <p>© <span id="year">2026</span> Sudharsan Gopalakrishnan</p>
-          <p>
-            Design inspired by
-            <a href="https://academicpages.github.io/">Academic Pages</a>.
-          </p>
+          
           <a href="#top">Back to top ↑</a>
         </footer>
       </main>

@@ -1,1 +1,3 @@
-images
+images/*
+!images/Sudharsan Photo 2.jpg
+temp
